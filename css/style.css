@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------Common------CSSS-----Start-------------------------------*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.off-white-bg{
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.row-padding{
+    padding: 80px 0px;
+}
+p{margin: 25px 0px;}
+
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+.img{
+    max-width: 100%;
+    width: auto;
+}
+
+/*-------------Common----------CSS----End----------------------*/
+
+.logo{
+    min-width: 300px;
+    padding: 10px 20px;
+}
+.logo span{
+    background: #00d6bb;
+    color: #00445c;
+    padding: 7px 10px;
+    display: inline-block;
+    border-radius: 0 10px 10px 10px;
+}
+.mainmenu{
+    width: 100%;
+}
+.mainmenu ul{
+    list-style: none;
+}
+.mainmenu ul a{
+    padding: 5px 25px;
+    display: inline-block;
+    color: black;
+}
+.mainmenu ul a:hover{
+    color: #0085fe;
+}
+.right-btns{
+    min-width: 200px;
+    justify-content: end;
+}
+.btn{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
+.secondary-btn{
+    background-color: #fff;
+    color: #0085fe;
+}
+.primary-btn{
+    background-color: #0085fe;
+    color: #fff;
+}
+/*-------header---area---end--------*/
+
+.hero-text{
+    padding-right: 80px;
+}
+.hero-text h2{
+    font-size: 60px;
+}
+.hero-text p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.hero-text a{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.hero-text p:last-child{
+    font-weight: 600px;
+    margin-top: 80px;
+}
+/*--------sponser----area---------*/
+
+.sponsor-area p{
+    font-size: 20px;
+    min-width: 320px;
+    font-weight: 600px;
+}
+
+.single-box img{
+    width: 150px;
+    margin-left: 40px;
+    
+}
+.cta-block h2{
+    font-size: 48px;
+}
+
+
+/*--------Newsletter----area---------*/
+
+.newsletter {
+    background-color: #061f4b;
+}
+.newsletter h2 {
+    width: 800px;
+    font-size: 43px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+.newsletter p {
+    color: white;
+    font-weight: 600;
+}
+
+input[type="form"] {
+    padding: 14px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+.newsletter-text a {
+    margin-left: 30px;
+    padding: 14px 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+/*--------About----area---------*/
+
+
+.about-us {
+    width: 250px;
+}
+
+.single-quick-link {
+    padding-left: 20px;
+}
+
+.single-quick-link ul li {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-us p {
+    line-height: 2;
+}
+
+.about-us i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+.footer {
+    padding: 40px 0px;
+}
